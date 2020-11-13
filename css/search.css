@@ -1,5 +1,5 @@
 @font-face{  font-family :"BMJUA_ttf";
-  src: url("C:\\Users\\hjh61\\Documents\\KHU\\2-2\\2020khuton\\site\\khuton2020-front\\font\\BMJUA_ttf.ttf") format('truetype');
+  src: local(BMJUA_ttf) format('truetype');
 }
 
 body {

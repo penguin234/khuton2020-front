@@ -1,6 +1,6 @@
 @CHARSET "UTF-8";
 @font-face{  font-family :"BMJUA_ttf";
-  src: url("C:\\Users\\hjh61\\Documents\\KHU\\2-2\\2020khuton\\site\\khuton2020-front\\font\\BMJUA_ttf.ttf") format('truetype');
+  src: local(BMJUA_ttf) format('truetype');
 }
 @media screen and (max-width: 620px) {
   .searchBox:hover > .searchInput {
