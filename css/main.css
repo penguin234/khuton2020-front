@@ -2,7 +2,7 @@ body {
   background-image: linear-gradient(to right, #cb2d3e, #ef473a);
 }
 
-.search-form {
+.searchBox {
   position: absolute;
   top: 60%;
   left: 50%;
