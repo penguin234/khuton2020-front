@@ -1,6 +1,6 @@
 @CHARSET "UTF-8";
 @font-face{  font-family :"BMJUA_ttf";
-  src: local(BMJUA_ttf) format('truetype');
+  src: local(BMJUA_ttf);
 }
 @media screen and (max-width: 620px) {
   .searchBox:hover > .searchInput {

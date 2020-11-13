@@ -1,5 +1,5 @@
 @font-face{  font-family :"BMJUA_ttf";
-  src: local(BMJUA_ttf) format('truetype');
+  src: local(BMJUA_ttf);
 }
 
 body {
