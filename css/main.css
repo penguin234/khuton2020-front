@@ -1,10 +1,22 @@
+@CHARSET "UTF-8";
+@font-face{  font-family :"BMJUA_ttf";
+  src: url("BMJUA_ttf.ttf") format('truetype');
+}
+@media screen and (max-width: 620px) {
+  .searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+  }
+}
+
 body {
-  background-image: linear-gradient(to right, #cb2d3e, #ef473a);
+  background-color: #e6f9ffb4;
+  font-family: "BMJUA_ttf";
 }
 
 .searchBox {
   position: absolute;
-  top: 60%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, 50%);
   background: #2f3640;
@@ -48,45 +60,40 @@ body {
   line-height: 40px;
   width: 0px;
 }
-
-@media screen and (max-width: 620px) {
-  .searchBox:hover > .searchInput {
-    width: 150px;
-    padding: 0 6px;
-  }
-}
-
 .titleIcon {
   position: absolute;
-  top: 30%;
+  top: 45%;
+  left:8%
 }
 
 .title {
-  color: white;
-  font-size: xxx-large;
-  position: relative;
-  top: 40%;
-  left: 32%;
-  width: 600px;
-  height: 40px;
-  border-radius: 50%;
+  color: #2f3640;
+  font-size: 70pt;
+  font-family: "BMJUA_ttf";
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  width: 5000px;
+  height: 50px;
+  
+  
 }
 
 .subtitle {
-  color: white;
-  font-size: xx-large;
+  color:#2f3640;
+  font-size: 25pt;
   position: absolute;
-  top: 50%;
-  left: 33%;
+  top: 27%;
+  left: 37%;
   display: flex;
   justify-content: center;
   width: 500px;
   height: 40px;
-  border-radius: 50%;
+
 }
 
 .keyword {
-  color: white;
+  color: #2f3640;
   font-size: xx-large;
   position: absolute;
   top: 20%;
@@ -94,15 +101,14 @@ body {
 }
 
 .keywordsBox {
-  position: relative;
+  position: absolute;
   top: 30%;
   left: 32%;
-  width: 500px;
-  height: 40px;
 }
 
 .navTitle {
-  color: white;
-  font-size: xxx-large;
+  color:#2f3640;
+  width : 50%;
+  font-size: xx-large;
   position: absolute;
 }

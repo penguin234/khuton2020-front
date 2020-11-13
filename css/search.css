@@ -1,20 +1,28 @@
+@font-face{  font-family :"BMJUA_ttf";
+  src: url("BMJUA_ttf.ttf") format('truetype');
+}
+
 body {
-  background-image: linear-gradient(to right, #cb2d3e, #ef473a);
-}
-.container {
-  position: relative;
-}
+    background-color: #e6f9ffb4;
+    font-family: "BMJUA_ttf";
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navTitle{
+      font-size: 25pt;
+  }
+  .all{
+      display:flex;
+      flex-direction: row;
+  }
+  .box{
+    display:flex;
+    flex-direction: column;
+    left:70%;
+  }
 
-.topleft {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-  font-size: 18px;
-}
 
-img { 
-  width: 100%;
-  height: auto;
-  opacity: 0.3;
-}
-
+  .keyword{
+    font-family: "BMJUA_ttf";
+  }
